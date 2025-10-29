@@ -4,10 +4,6 @@ Orderly is a simple and clean desktop utility built with **Java Swing**. It help
 
 This project was built as a clean, self-contained example of a Java Swing application that follows basic separation of concerns (UI vs. Logic) and uses a `SwingWorker` for responsive background processing.
 
-## 📸 Screenshot
-
-![A screenshot of the Orderly application UI](placeholder-image.png)
-*(You should replace the file `placeholder-image.png` with an actual screenshot of your application)*
 
 ## ✨ Features
 
@@ -53,6 +49,3 @@ The project is broken down into four simple classes to separate responsibilities
 * `CategoryManager.java`: The **Configuration**. This class uses a `HashMap` to map file extensions (like `.jpg` or `.pdf`) to their corresponding category folder names (like `Images` or `Documents`).
 * `FileUtility.java`: A **Helper Class**. This provides simple methods for getting file properties like its extension, size, or last modified time.
 
-## 📄 License
-
-This project is open-source and available as a learning resource. You can consider adding an [MIT License](https://opensource.org/licenses/MIT) if you wish to allow others to freely use and modify your code.
